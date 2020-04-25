@@ -1,7 +1,6 @@
 # I don't fully understand this
 
 def get_planet_name(id)
-  # This doesn't work; Fix it!
   name = ''
   case id
     when 1
