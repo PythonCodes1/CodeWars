@@ -26,7 +26,7 @@ unsigned int number(const std::vector<std::pair<int, int>>& busStops){
     t += busStops[i].first;
     t -= busStops[i].second;
   }
-  return total_people;
+  return t;
 }
 
 //ANOTHER ANSWER I FOUND
